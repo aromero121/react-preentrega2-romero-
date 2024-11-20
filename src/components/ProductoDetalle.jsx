@@ -1,5 +1,6 @@
 
 import productosTienda from "./productosTienda";
+//import getProductos from "./productosTienda";
 import { useParams } from "react-router-dom";
 
 function ProductoDetalle() {
