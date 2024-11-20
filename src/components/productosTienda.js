@@ -84,13 +84,13 @@ const productosTienda = [
 
 ]
 
-//const getProductos = new Promise((resolve,reject) => {
-//    setTimeout(() => {
-//        resolve(productosTienda);
-//    },3000);
-//});
+const getProductos = new Promise((resolve,reject) => {
+    setTimeout(() => {
+        resolve(productosTienda);
+    },3000);
+});
 
-//No lo pude hacer andar !
+//No lo pude hacer andar en el componente por lo tanto hago el export de "productosTienda" !
 //export default getProductos;
 
 export default productosTienda;
